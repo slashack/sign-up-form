@@ -1,0 +1,13 @@
+/*Form container for signup*/
+#sign-up-form {
+height: 100px;
+width: 600px;
+
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.form-input {
+
+}
