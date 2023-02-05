@@ -1,5 +1,6 @@
 /*Form container for signup*/
 #sign-up-form {
+width: 750px;
 display: flex;
 flex-wrap: wrap;
 gap: 10px;
@@ -12,4 +13,23 @@ gap: 10px;
 /* Form element global styling */
 input {
     
+}
+img {
+height: 150%;
+width: 150%;
+object-fit: cover;
+/* max-height: 100%; */
+
+
+}
+body {
+    display: flex;
+    
+}
+
+.right-side {
+    flex: 1;
+}
+.left-side {
+    flex: 2;
 }
