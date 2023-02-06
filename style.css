@@ -15,8 +15,8 @@ input {
     
 }
 img {
-height: 150%;
-width: 150%;
+    max-width: 200px;
+    max-height: 100px;
 object-fit: cover;
 /* max-height: 100%; */
 
@@ -31,5 +31,8 @@ body {
     flex: 1;
 }
 .left-side {
-    flex: 2;
+    background-image: url(images/mailchimp-billboard.jpg);
+    background-position: center;
+    background-size: auto;
+    width: 40vw;
 }
